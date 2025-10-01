@@ -1,6 +1,6 @@
 package Ejercicio1.ClaseAnonima;
 
-import Ejercicio1.Runnable.Hilo;
+import Ejercicio1.Runnable.Hilo1;
 
 import java.util.Scanner;
 
@@ -44,7 +44,7 @@ public class Main {
             }
         };
 
-        Thread t = new Thread(new Hilo(n1, n2));
+        Thread t = new Thread(new Hilo1(n1, n2));
 
         t.start();
 

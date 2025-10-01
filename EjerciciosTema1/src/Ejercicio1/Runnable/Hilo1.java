@@ -1,11 +1,11 @@
 package Ejercicio1.Runnable;
 
-public class Hilo implements Runnable{
+public class Hilo1 implements Runnable{
 
     int n1;
     int n2;
 
-    public Hilo(int n1, int n2){
+    public Hilo1(int n1, int n2){
         this.n1 = n1;
         this.n2 = n2;
     }

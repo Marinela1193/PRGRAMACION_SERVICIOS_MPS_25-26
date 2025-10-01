@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Introduce n2");
         int n2 = sc.nextInt();
 
-        Thread t = new Thread(new Hilo(n1, n2));
+        Thread t = new Thread(new Hilo1(n1, n2));
 
         t.start();
 
