@@ -1,3 +1,5 @@
+package Ejercicio6;
+
 import java.util.Random;
 
 public class Escritor implements Runnable {
